@@ -2,7 +2,7 @@
   "version": "0.1.8",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/0.1.8/Blindify.app.tar.gz",
+      "url": "https://github.com/Jolwarden/blindify-updates/blob/main/latest/windows/msi/Blindify_0.1.8_x64_en-US.msi",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1ZESndSNHBXaEFCNlJPYllZRnV5M1VtWnlpK25IQ0tPYjZtWFJ6Tlpya1ZyL2FxVnhjMHU3WE42TlVFZUdNem55UjB0enRxNmRvTCtqU1B2NmlpcWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4Mjc3MTk4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpCNWhVeXVxSENhZGFCazdQanRpNTA4MS9rM1RDTnB6OVBUYldITkVQb1FiTVNVcUVzcnRLajhUUUhPQ2EweTQvSDRhZnR4aktWTU1VRXJ6ZW91alZEZz09Cg=="
     }
   }
