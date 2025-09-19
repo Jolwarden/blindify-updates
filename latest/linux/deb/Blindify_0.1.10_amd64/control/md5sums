@@ -1,0 +1,7 @@
+d1875d8f9213ad1485e37a04b0c051ef  usr/share/icons/hicolor/128x128/apps/blindify.png
+bc1652c2bcec4fe8f01b0f131583d4df  usr/share/icons/hicolor/256x256@2/apps/blindify.png
+87bb7f21dd97517862c6914509ddef1f  usr/share/icons/hicolor/32x32/apps/blindify.png
+06c21b961fd253758394f073c000ce55  usr/share/applications/Blindify.desktop
+6313af0007108b18b2fee92a525bc027  usr/bin/blindify
+b56f515d430bfa4bb67eafc52aaa81c8  usr/lib/Blindify/resources/linux/ffprobe
+71c724f4654f3a2c4e674b9984e77477  usr/lib/Blindify/resources/linux/ffmpeg
