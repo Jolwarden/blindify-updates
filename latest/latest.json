@@ -1,9 +1,9 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/0.1.7/Blindify.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1J4M3ZGc0tkS0RCMzloTDI5VGN3WnRSbzhoRzYwZVNpQXc0QU1sYnliOC9zOFkzZnlWL0RBZVZxSVY5b2dQS05ycU5wamkrYVhjVEY3ME9ZMTlnT3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4MjcxODg5CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negp6QTgvZm8rN2NIZWhaM1hjUkIrelpXUHRlZUh3UjdCcm16bDVScEJOWk96ZUZsMzE1RTVHbEFVamhzR0FPanArbTlRNFhvNmdidm9TaFpkRzIxS1pEUT09Cg=="
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/0.1.8/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1ZESndSNHBXaEFCNlJPYllZRnV5M1VtWnlpK25IQ0tPYjZtWFJ6Tlpya1ZyL2FxVnhjMHU3WE42TlVFZUdNem55UjB0enRxNmRvTCtqU1B2NmlpcWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4Mjc3MTk4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpCNWhVeXVxSENhZGFCazdQanRpNTA4MS9rM1RDTnB6OVBUYldITkVQb1FiTVNVcUVzcnRLajhUUUhPQ2EweTQvSDRhZnR4aktWTU1VRXJ6ZW91alZEZz09Cg=="
     }
   }
 }
