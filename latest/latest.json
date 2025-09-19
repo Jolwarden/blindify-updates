@@ -1,0 +1,9 @@
+{
+  "version": "0.1.7",
+  "platforms": {
+    "darwin-x86_64": {
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/0.1.7/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1J4M3ZGc0tkS0RCMzloTDI5VGN3WnRSbzhoRzYwZVNpQXc0QU1sYnliOC9zOFkzZnlWL0RBZVZxSVY5b2dQS05ycU5wamkrYVhjVEY3ME9ZMTlnT3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4MjcxODg5CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negp6QTgvZm8rN2NIZWhaM1hjUkIrelpXUHRlZUh3UjdCcm16bDVScEJOWk96ZUZsMzE1RTVHbEFVamhzR0FPanArbTlRNFhvNmdidm9TaFpkRzIxS1pEUT09Cg=="
+    }
+  }
+}
