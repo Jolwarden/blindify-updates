@@ -1,5 +1,10 @@
 {
-  "pub_date": "2025-09-25T18:20:43Z",
-  "version": "0.1.24",
-  "platforms": {}
+  "version": "0.1.32",
+  "pub_date": "2025-09-25T22:34:13Z",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://jolwarden.github.io/blindify-updates/latest/windows/msi/Blindify_0.1.32_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1pqMm4zWWRpVjhueTYwMmgvMzZUYVYvdGlRdXRNbGtadDFjbGVEcWxSd3ZxTDhpT0xxQ09SVUR6QnJrbVo4NGM1ZHY0YUFkN3VJeGFnSjZZSklSaXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU4ODM5NTU2CWZpbGU6QmxpbmRpZnlfMC4xLjMyX3g2NF9lbi1VUy5tc2kKS3VkMElWNHQ3ZHVlWHJzQjZVeitwSnBNaW1SS0F6dU1Icm9jQklZN2Y0THdHYmRWTnFRZzlZQXFwZ21ucnpjL3RHVVpqVDZvanUrb0ovZ0VtalhCQVE9PQo="
+    }
+  }
 }
