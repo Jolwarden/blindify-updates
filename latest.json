@@ -1,10 +1,10 @@
 {
     "platforms":  {
                       "windows-x86_64":  {
-                                             "url":  "https://jolwarden.github.io/blindify-updates/latest/windows/msi/Blindify_0.1.46_x64_en-US.msi",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN2RYZUtsR1g4aDhhUUhjNXJEenFxbVpJVkRoUUY4ZFZuSnc2ZDBJMER6NGhRTkhMRlB3Yi9VMGR6cW95ZGdLKzBxNU9nSjh3NXoydENpN2hvb0J0eHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzU5MjM1ODM0CWZpbGU6QmxpbmRpZnlfMC4xLjQ2X3g2NF9lbi1VUy5tc2kKZTR5amJwZXB3MzBEUlNyc0JYUkducWlLMGtuc3A2RGRtbzZHL2VjUi9KWFpVSVZRcGFCZ25YeTY3R1FwN0x1ZmlrdldpeHJQeDJGWlVvM2VUR3phQUE9PQo="
+                                             "url":  "https://jolwarden.github.io/blindify-updates/latest/windows/msi/Blindify_0.1.47_x64_en-US.msi",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN2MwanAyWmFIZTZMT20zMG9XU3o1TFN0cmVFZHA2dlQyR05MOUNrTTA4WWxCTW9WMC9Wck4wRTNHWHFzcWhrVlZlekZFdXZqbXdzcm1URHZhUXduN0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyODQyMTc1CWZpbGU6QmxpbmRpZnlfMC4xLjQ3X3g2NF9lbi1VUy5tc2kKSmI1dldLK0VGclhtN0tjRzRQUGVvanloTE9zelZGQVJHTWc4VG1mak9aVThxdWVvN1JXK1dCRTJFM25XTHladTA1cXdWV0dyTFhHTWpXMU55dmp3QXc9PQo="
                                          }
                   },
-    "pub_date":  "2025-09-30T12:38:16Z",
-    "version":  "0.1.46"
+    "pub_date":  "2026-03-07T00:10:23Z",
+    "version":  "0.1.47"
 }
