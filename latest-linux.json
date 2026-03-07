@@ -1,10 +1,10 @@
 {
-  "version": "0.1.49",
-  "pub_date": "2026-03-07T00:54:49Z",
+  "version": "0.1.53",
+  "pub_date": "2026-03-07T11:29:45Z",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://jolwarden.github.io/blindify-updates/latest/linux/appimage/Blindify_0.1.49_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1RJcWg1cHI0WXlkRFg5NDNUeDFQczR0ZTdhM01FaWJHajkyTmVpRGliZXdPc1J3bEFKS0dSYmVMazRDejJLamhLT2VXSi8yWmUxMExUV1lOWjlmbGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyODQ0ODUwCWZpbGU6QmxpbmRpZnlfMC4xLjQ5X2FtZDY0LkFwcEltYWdlCnBLQUozYm0yZ29IM0JIOVFTdEFwOU9pNS94UkhxZGNTM3V0OUFTekRXYWdjQWcxeEFyT0RBbCt0V0NnbUlwU1ZuY0owSUY4WVRZWVFhais3NGxCMERnPT0K"
+      "url": "https://jolwarden.github.io/blindify-updates/latest/linux/appimage/Blindify_0.1.53_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1RkQ0tGMGd4RnFKWkJiVEsxL2pZOWN3SUNYSzk2ZE5LUTRRYUpqc1FjQmpKbUZWL0w1VVJVb25KUDJrdjhEZmhQVXMyTkN6N1pMd2REa0JGUXRRK2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcyODgyOTUwCWZpbGU6QmxpbmRpZnlfMC4xLjUzX2FtZDY0LkFwcEltYWdlCkR2bis4QVZyQ0xPY1NIQ3VBZ1QyaHJCN2dGajdIRjZndEQ0eWV4U0N3Y3ZCOFQ0TnFMSThxaWpuNlBPQVZ5Yy9kVjVlZXNzQk82eXhVbUFwV2FVdEJRPT0K"
     }
   }
 }
