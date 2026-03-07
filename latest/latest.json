@@ -1,5 +1,12 @@
 {
-  "version": "0.1.54",
-  "pub_date": "2026-03-07T11:40:47Z",
-  "platforms": {}
+  "version": "0.1.55",
+  "pub_date": "2026-03-07T12:12:25Z",
+  "platforms": {
+    "darwin-x86_64": {
+      "url": "https://jolwarden.github.io/blindify-updates/latest/macos/dmg/Blindify_0.1.55_aarch64.dmg"
+    },
+    "darwin-aarch64": {
+      "url": "https://jolwarden.github.io/blindify-updates/latest/macos/dmg/Blindify_0.1.55_aarch64.dmg"
+    }
+  }
 }
