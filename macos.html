@@ -23,13 +23,14 @@
         return r.json();
       })
       .then(data => {
-        if (data.platforms && data.platforms["darwin-x86_64"]) {
-          const link = data.platforms["darwin-x86_64"].url;
+        const platform = data.platforms?.["darwin-aarch64"] ?? data.platforms?.["darwin-x86_64"];
+        if (platform?.url) {
           document.getElementById('download').innerHTML =
-            `<a href="${link}">⬇️ Télécharger la version ${data.version}</a>`;
+            `<a href="${platform.url}">⬇️ Télécharger Blindify ${data.version} (macOS)</a>
+             <p style="color:#aaa;font-size:0.9rem">⚠️ Version de développement non signée – clic droit → Ouvrir pour contourner Gatekeeper.</p>`;
         } else {
           document.getElementById('download').innerHTML =
-            `<p class="error">Aucune build macOS disponible pour l’instant.</p>`;
+            `<p class="error">Aucune build macOS disponible pour l'instant.</p>`;
         }
       })
       .catch(err => {
