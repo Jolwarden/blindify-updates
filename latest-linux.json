@@ -1,0 +1,10 @@
+{
+  "version": "0.1.63",
+  "pub_date": "2026-08-31T21:33:44Z",
+  "platforms": {
+    "linux-x86_64": {
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v0.1.63/Blindify_0.1.63_amd64.deb",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1hPamFVREh5VmRraTdXbkt6WmJLU0RuUXh0NDRKdHc3bUNNMDE1djd5NTAvQURleS9seWE3Y2hCWXp0MWFhQmZFQTR6UVVtNTZQZWtibi8rOTBMQlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjExODY3CWZpbGU6QmxpbmRpZnlfMC4xLjYzX2FtZDY0LmRlYgpVQUtXVWhia015cDhJTFZhbHlvcHZucVF5WXUyaXUyQ2lrZElqZ2Y1SEpkZURMdWIydnpFOEljd1VYOW1oRXZweGV0b1hCeWpaRFBXUWZBdE5JWFNDZz09Cg=="
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blindify – macOS</title>
+  <style>
+    body { font-family: system-ui, sans-serif; background:#111; color:#eee; margin:0; padding:2rem; }
+    h1 { margin-bottom: 1rem; }
+    a { color:#8fd3ff; display:block; margin:1rem 0; font-size:1.2rem; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .error { color:#f55; }
+  </style>
+</head>
+<body>
+  <h1>🎵 Blindify – macOS</h1>
+  <div id="download">Chargement...</div>
+
+  <script>
+    fetch('./latest-macos.json')
+      .then(r => {
+        if (!r.ok) throw new Error('Pas de release macOS trouvée.');
+        return r.json();
+      })
+      .then(data => {
+        const platform = data.platforms?.["darwin-aarch64"] ?? data.platforms?.["darwin-x86_64"];
+        if (platform?.url) {
+          document.getElementById('download').innerHTML =
+            `<a href="${platform.url}">⬇️ Télécharger Blindify ${data.version} (macOS)</a>
+             <p style="color:#aaa;font-size:0.9rem">⚠️ Version de développement non signée – clic droit → Ouvrir pour contourner Gatekeeper.</p>`;
+        } else {
+          document.getElementById('download').innerHTML =
+            `<p class="error">Aucune build macOS disponible pour l'instant.</p>`;
+        }
+      })
+      .catch(err => {
+        document.getElementById('download').innerHTML =
+          `<p class="error">${err.message}</p>`;
+      });
+  </script>
+</body>
+</html>
