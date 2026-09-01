@@ -1,10 +1,12 @@
 {
+    "download_url":  "https://github.com/jolwarden/blindify-updates/releases/download/v0.1.67/Blindify_0.1.67_x64-setup.exe",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "url":  "https://jolwarden.github.io/blindify-updates/latest/windows/msi/Blindify_0.1.56_x64_en-US.msi",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1diTEJHWHRoU0hLTUhVVGwvUUp5YmN4NEdXK1hIV0tPVDFNaEVGNmRpa2FEMUxMYXFvbUY2YjhGcEpWNWJtMXdoRnYyRTB1V3JURDQzL3hWczYwaUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzczMDA1Mjc2CWZpbGU6QmxpbmRpZnlfMC4xLjU2X3g2NF9lbi1VUy5tc2kKY2JpU1pFRHZOc1ZwSmVBamMwWGs2WDlLVzZzTmswSGUrb1lTRWRqVXlaS0EvZFJXRmxsdk5wZzV2TFV6bU9JYnNSNzhwOTFVbmQ5NWIrakRQZHRwQ3c9PQo="
+                                             "url":  "https://github.com/jolwarden/blindify-updates/releases/download/v0.1.67/Blindify_0.1.67_x64_en-US.msi",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1RwNlBYdHRNLzVjeDV3bFM5a2Q2MmJ3a3pvU2lsTWRPT2MzZkcvM2oyL3NwNC9RNW5wcXdRWFRpR3oyU0JEVXlNOVVTWGlJblA1VHk2bjRlbnFKL3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjY2NDI4CWZpbGU6QmxpbmRpZnlfMC4xLjY3X3g2NF9lbi1VUy5tc2kKQnFlSmd1RnR3b1ppTjQ0MjNjVVlHMG9jUlRRQ3ExSWN5WWpDcnozbWg5RERENmZIRzBtS2ZXOVVWeTRjckZvenFNU29nNHFYQkhiQjNLZzB1UGdEQlE9PQo="
                                          }
                   },
-    "pub_date":  "2026-03-08T21:28:56Z",
-    "version":  "0.1.56"
+    "pub_date":  "2026-09-01T12:40:43Z",
+    "download_name":  "Blindify_0.1.67_x64-setup.exe",
+    "version":  "0.1.67"
 }
