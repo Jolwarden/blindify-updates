@@ -1,12 +1,14 @@
 {
-  "version": "0.1.58",
-  "pub_date": "2026-03-08T21:48:36Z",
+  "version": "0.1.64",
+  "pub_date": "2026-09-01T09:30:44Z",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://jolwarden.github.io/blindify-updates/latest/macos/dmg/Blindify_0.1.58_aarch64.dmg"
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v0.1.64/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN2YwVmVwMGxISlprT3RtcCszMTRlUXArVE1wOEorclU4ZklJc011d201QmhRa1VPUHFHMTFEL1BnNVAvdG9IemdxYUdFNFFiTHJRbjNrOXVia2Z3bVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjU1MDM4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpaMUZNaGVpRlA0ZWtxT1IwckpBa1RHL1Z0UnRPQ1VMS29TWGxIRlNlNFVuZmtIUVhNOXhDSU45ZEgzaUhFNXZtejJ3ZnprV1UzTVY3bXl4TllhVXVCUT09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://jolwarden.github.io/blindify-updates/latest/macos/dmg/Blindify_0.1.58_aarch64.dmg"
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v0.1.64/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN2YwVmVwMGxISlprT3RtcCszMTRlUXArVE1wOEorclU4ZklJc011d201QmhRa1VPUHFHMTFEL1BnNVAvdG9IemdxYUdFNFFiTHJRbjNrOXVia2Z3bVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjU1MDM4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpaMUZNaGVpRlA0ZWtxT1IwckpBa1RHL1Z0UnRPQ1VMS29TWGxIRlNlNFVuZmtIUVhNOXhDSU45ZEgzaUhFNXZtejJ3ZnprV1UzTVY3bXl4TllhVXVCUT09Cg=="
     }
   }
 }
