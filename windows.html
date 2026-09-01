@@ -5,36 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Blindify – Windows</title>
   <style>
-    body { font-family: system-ui, sans-serif; background:#111; color:#eee; margin:0; padding:2rem; }
-    h1 { margin-bottom: 1rem; }
-    a { color:#8fd3ff; display:block; margin:1rem 0; font-size:1.2rem; text-decoration:none; }
-    a:hover { text-decoration:underline; }
+    :root { --bg:#111; --fg:#eee; --muted:#9a9a9a; --accent:#8fd3ff; --card:#1a1a1a; --line:#2a2a2a; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background:var(--bg); color:var(--fg);
+           margin:0; padding:2rem 1.5rem; line-height:1.5; }
+    .wrap { max-width: 640px; margin: 0 auto; }
+    h1 { margin:0 0 1.5rem; font-size:1.75rem; }
+    .back { color:var(--muted); text-decoration:none; font-size:.9rem; display:inline-block; margin-bottom:1rem; }
+    .back:hover { color:var(--accent); }
+    .btn { display:inline-block; background:var(--accent); color:#06263a; font-weight:600;
+           padding:.8rem 1.4rem; border-radius:10px; text-decoration:none; font-size:1.05rem; }
+    .btn:hover { filter:brightness(1.1); }
+    .file { color:var(--muted); font-size:.85rem; margin-top:.6rem; word-break:break-all; }
+    .note { background:var(--card); border:1px solid var(--line); border-left:3px solid var(--accent);
+            border-radius:8px; padding:.9rem 1.1rem; margin-top:1.75rem; font-size:.92rem; }
+    .note h2 { font-size:.95rem; margin:0 0 .4rem; }
+    .note ol, .note ul { margin:.4rem 0 0; padding-left:1.2rem; }
+    .note li { margin:.25rem 0; }
     .error { color:#f55; }
+    code { background:#000; padding:.15rem .4rem; border-radius:4px; font-size:.9em; }
   </style>
 </head>
 <body>
-  <h1>🎵 Blindify – Windows</h1>
-  <div id="download">Chargement...</div>
+  <div class="wrap">
+    <a class="back" href="./index.html">← Toutes les plateformes</a>
+    <h1>🎵 Blindify pour Windows</h1>
+
+    <div id="download">Chargement…</div>
+
+    <div class="note">
+      <h2>À l'installation</h2>
+      <p style="margin:.3rem 0 0">
+        Windows SmartScreen affichera un avertissement, l'application n'étant pas
+        encore signée. Cliquez sur <strong>Informations complémentaires</strong>
+        puis <strong>Exécuter quand même</strong>.
+      </p>
+    </div>
+
+    <div class="note">
+      <h2>Configuration requise</h2>
+      <ul>
+        <li>Windows 10 ou 11, 64 bits</li>
+        <li>WebView2 (préinstallé sur Windows 11, installé automatiquement sinon)</li>
+      </ul>
+    </div>
+  </div>
 
   <script>
-    fetch('./latest-windows.json')
-      .then(r => {
-        if (!r.ok) throw new Error('Pas de release Windows trouvée.');
-        return r.json();
-      })
+    // download_url pointe vers l'installeur destiné aux utilisateurs.
+    // platforms[].url sert à l'updater intégré et peut désigner un autre format.
+    fetch('./latest-windows.json', { cache: 'no-store' })
+      .then(r => { if (!r.ok) throw new Error('Aucune version Windows publiée pour le moment.'); return r.json(); })
       .then(data => {
-        if (data.platforms && data.platforms["windows-x86_64"]) {
-          const link = data.platforms["windows-x86_64"].url;
-          document.getElementById('download').innerHTML =
-            `<a href="${link}">⬇️ Télécharger la version ${data.version}</a>`;
-        } else {
-          document.getElementById('download').innerHTML =
-            `<p class="error">Aucune build Windows disponible pour l’instant.</p>`;
-        }
+        const url  = data.download_url || data.platforms?.['windows-x86_64']?.url;
+        const name = data.download_name || (url ? url.split('/').pop() : '');
+        if (!url) throw new Error('Aucune version Windows disponible pour le moment.');
+        document.getElementById('download').innerHTML =
+          `<a class="btn" href="${url}">⬇️ Télécharger Blindify ${data.version}</a>
+           <div class="file">${name}</div>`;
       })
       .catch(err => {
-        document.getElementById('download').innerHTML =
-          `<p class="error">${err.message}</p>`;
+        document.getElementById('download').innerHTML = `<p class="error">${err.message}</p>`;
       });
   </script>
 </body>

@@ -5,16 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Blindify – Téléchargements</title>
   <style>
-    body { font-family: system-ui, sans-serif; background:#111; color:#eee; margin:0; padding:2rem; }
-    h1 { margin-bottom: 1rem; }
-    a { color:#8fd3ff; display:block; margin:1rem 0; font-size:1.2rem; text-decoration:none; }
-    a:hover { text-decoration:underline; }
+    :root { --bg:#111; --fg:#eee; --muted:#9a9a9a; --accent:#8fd3ff; --card:#1a1a1a; --line:#2a2a2a; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background:var(--bg); color:var(--fg);
+           margin:0; padding:2rem 1.5rem; line-height:1.5; }
+    .wrap { max-width: 640px; margin: 0 auto; }
+    h1 { margin:0 0 .25rem; font-size:1.75rem; }
+    .lead { color:var(--muted); margin:0 0 2rem; }
+    .card { display:block; background:var(--card); border:1px solid var(--line);
+            border-radius:12px; padding:1rem 1.25rem; margin:.75rem 0;
+            text-decoration:none; color:var(--fg); transition:border-color .15s, transform .15s; }
+    .card:hover { border-color:var(--accent); transform:translateY(-1px); }
+    .card .os { font-size:1.15rem; font-weight:600; }
+    .card .meta { color:var(--muted); font-size:.9rem; margin-top:.15rem; }
+    footer { margin-top:2.5rem; color:var(--muted); font-size:.85rem;
+             border-top:1px solid var(--line); padding-top:1rem; }
   </style>
 </head>
 <body>
-  <h1>🎵 Blindify – Téléchargements</h1>
-  <a href="./windows.html">⬇️ Windows</a>
-  <a href="./macos.html">⬇️ macOS</a>
-  <a href="./linux.html">⬇️ Linux</a>
+  <div class="wrap">
+    <h1>🎵 Blindify</h1>
+    <p class="lead">Application de blind test musical pour Windows, macOS et Linux.</p>
+
+    <a class="card" href="./windows.html">
+      <div class="os">⊞ Windows</div>
+      <div class="meta" id="meta-windows">Windows 10 et 11 · 64 bits</div>
+    </a>
+
+    <a class="card" href="./macos.html">
+      <div class="os">⌘ macOS</div>
+      <div class="meta" id="meta-macos">macOS 11 Big Sur ou ultérieur</div>
+    </a>
+
+    <a class="card" href="./linux.html">
+      <div class="os">🐧 Linux</div>
+      <div class="meta" id="meta-linux">Debian et Ubuntu · paquet .deb</div>
+    </a>
+
+    <footer>Les versions sont publiées automatiquement à chaque build.</footer>
+  </div>
+
+  <script>
+    // Affiche le numéro de version courant sur chaque carte, en lisant les
+    // manifests servis par GitHub Pages. Échec silencieux : la carte garde
+    // simplement sa description par défaut.
+    const OS = {
+      windows: 'latest-windows.json',
+      macos:   'latest-macos.json',
+      linux:   'latest-linux.json',
+    };
+
+    Object.entries(OS).forEach(async ([os, file]) => {
+      try {
+        const r = await fetch(`./${file}`, { cache: 'no-store' });
+        if (!r.ok) return;
+        const { version } = await r.json();
+        if (!version) return;
+        const el = document.getElementById(`meta-${os}`);
+        el.textContent = `Version ${version} · ${el.textContent}`;
+      } catch { /* manifest absent : on laisse le texte par défaut */ }
+    });
+  </script>
 </body>
 </html>
