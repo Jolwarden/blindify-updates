@@ -1,1 +1,4 @@
-{ "spotify": false }
+{
+    "spotify": false,
+    "acoustid": false
+}
