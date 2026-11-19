@@ -1,12 +1,12 @@
 {
-  "version": "1.2.2",
-  "pub_date": "2026-11-02T19:20:44Z",
-  "download_url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.2/Blindify_1.2.2_amd64.deb",
-  "download_name": "Blindify_1.2.2_amd64.deb",
+  "version": "1.3.0",
+  "pub_date": "2026-11-19T14:31:32Z",
+  "download_url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify_1.3.0_amd64.deb",
+  "download_name": "Blindify_1.3.0_amd64.deb",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.2/Blindify_1.2.2_amd64.deb",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1E2T3hpbWhMd3o5REI0cENmSzZwNnAzb0FXRzNsNGx4MjNUWW9wUFRKY2R3Qk9HZmVGZFNvWUpJOFBZOGxBYkVEN0RySS9tVXhOTSttOUNOL3N1V3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjQ3MjM5CWZpbGU6QmxpbmRpZnlfMS4yLjJfYW1kNjQuZGViClFBREllSUZ0VThScFBpZU5NckhFQSt0cEJzUzRZK0kyN0NJWGZpRUpFUm8xaXVSaXUwbnE1aDlTUmZEZUhVQk91UWozWWRUSmlUMEVwbFBEWjJuQ0NBPT0K"
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify_1.3.0_amd64.deb",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1p6cElkVmZQYlQyZlRPZTJ4SGVZc29lRE8wKzNvNWRweFpOelVIRWx6V283Y0dpNlgvblc2NW1aVWRBdUVCdzNoNUF1Mk9qamg1eGdjczRDbUFZTXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk4Njg3CWZpbGU6QmxpbmRpZnlfMS4zLjBfYW1kNjQuZGViCjY0cklYVjlaKzhxMEFEbENpaVI1cDVQa2hBR1UvUDhEU2VqLyt0dmtqMjUzSENhRys4VU1uandUWTI1U1NaMWpZQXVRWWk1UzBWUHI3cWQ1VUdSMUJnPT0K"
     }
   }
 }
