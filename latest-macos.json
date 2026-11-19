@@ -1,20 +1,20 @@
 {
-  "version": "1.2.1",
-  "pub_date": "2026-10-01T18:19:51Z",
-  "download_url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.1/Blindify_1.2.1_universal.dmg",
-  "download_name": "Blindify_1.2.1_universal.dmg",
+  "version": "1.3.0",
+  "pub_date": "2026-11-19T14:26:40Z",
+  "download_url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify_1.3.0_universal.dmg",
+  "download_name": "Blindify_1.3.0_universal.dmg",
   "platforms": {
     "darwin-x86_64": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.1/Blindify.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1NHejJGNUppb1Y1RncySkl6WGFJcjZNbFovYUgvU210bUNUQXBvaHRmK3hPZXFSdUp4WXR4dldFRnJlamVOODNVY3dab1FSUTJCREliQ3NVRWRwTEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODc4Nzg0CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpjcHNEbGs1VHVOUHBlMkZ1dnB5cTN2b3kzUlZSKzg1YlI2cHZxVHROZkY5bE9Cb2hodG1kaUpIV0FoR29GK2JZVFVRRUp5eCtqMlpmTEljYnN3d3ZBQT09Cg=="
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1FCenBTdXFVVjFEV0pmYkJOYnlIeXlHNzNMMjNtdGo1S2d6KzVaQjFidkROLzNMWERxVHRIeFpudGVPSjd3cHBKaVpTRkp0cFhqUU03V05IT0pYVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk4Mzg4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negplWm4xdlJjUWxWbXpvMkdyTGRGQzZsZWFOQ0grbVFoaVkxZk9QeEpHYUVXVm9xeE9HTHVkQWJKVFlIYnZiNGRiSmZkZHU0M0RuamVhVHRLTWZ2eW1Cdz09Cg=="
     },
     "darwin-aarch64": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.1/Blindify.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1NHejJGNUppb1Y1RncySkl6WGFJcjZNbFovYUgvU210bUNUQXBvaHRmK3hPZXFSdUp4WXR4dldFRnJlamVOODNVY3dab1FSUTJCREliQ3NVRWRwTEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODc4Nzg0CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpjcHNEbGs1VHVOUHBlMkZ1dnB5cTN2b3kzUlZSKzg1YlI2cHZxVHROZkY5bE9Cb2hodG1kaUpIV0FoR29GK2JZVFVRRUp5eCtqMlpmTEljYnN3d3ZBQT09Cg=="
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1FCenBTdXFVVjFEV0pmYkJOYnlIeXlHNzNMMjNtdGo1S2d6KzVaQjFidkROLzNMWERxVHRIeFpudGVPSjd3cHBKaVpTRkp0cFhqUU03V05IT0pYVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk4Mzg4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negplWm4xdlJjUWxWbXpvMkdyTGRGQzZsZWFOQ0grbVFoaVkxZk9QeEpHYUVXVm9xeE9HTHVkQWJKVFlIYnZiNGRiSmZkZHU0M0RuamVhVHRLTWZ2eW1Cdz09Cg=="
     },
     "darwin-universal": {
-      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.2.1/Blindify.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1NHejJGNUppb1Y1RncySkl6WGFJcjZNbFovYUgvU210bUNUQXBvaHRmK3hPZXFSdUp4WXR4dldFRnJlamVOODNVY3dab1FSUTJCREliQ3NVRWRwTEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODc4Nzg0CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negpjcHNEbGs1VHVOUHBlMkZ1dnB5cTN2b3kzUlZSKzg1YlI2cHZxVHROZkY5bE9Cb2hodG1kaUpIV0FoR29GK2JZVFVRRUp5eCtqMlpmTEljYnN3d3ZBQT09Cg=="
+      "url": "https://github.com/jolwarden/blindify-updates/releases/download/v1.3.0/Blindify.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRQW5VU2FKSkNSN1FCenBTdXFVVjFEV0pmYkJOYnlIeXlHNzNMMjNtdGo1S2d6KzVaQjFidkROLzNMWERxVHRIeFpudGVPSjd3cHBKaVpTRkp0cFhqUU03V05IT0pYVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDk4Mzg4CWZpbGU6QmxpbmRpZnkuYXBwLnRhci5negplWm4xdlJjUWxWbXpvMkdyTGRGQzZsZWFOQ0grbVFoaVkxZk9QeEpHYUVXVm9xeE9HTHVkQWJKVFlIYnZiNGRiSmZkZHU0M0RuamVhVHRLTWZ2eW1Cdz09Cg=="
     }
   }
 }
