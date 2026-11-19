@@ -1,3 +1,6 @@
 {
-    "spotify": false
+    "spotify": false,
+    "donate": [
+        { "label": "Soutenir sur Ko-fi", "url": "https://ko-fi.com/franck33723" }
+    ]
 }
